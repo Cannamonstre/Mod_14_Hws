@@ -7,7 +7,7 @@ from CRUD_funcs import get_all_products
 
 get_all_products()
 
-API = '7744477667:AAExHvKav97KgTOYfr6TeFosGFsVmVSKjmw'
+API = '*your_API_must_be_here*'
 botik = Bot(token=API)
 dp = Dispatcher(botik, storage=MemoryStorage())
 
